@@ -1,0 +1,476 @@
+@import url(font.css);
+@import url(reset.css);
+
+body{
+    font-family: 'Baloo 2';
+}
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* styles header */
+
+header{
+    padding-top: 72px;
+    margin-bottom: 40px;
+}
+header .navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    max-width: 145px;
+}
+
+header .navigation-menu{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-menu .nav-item-link{
+    text-decoration: none;
+    color: black;
+}
+header .navigation-menu .nav-item-link:hover{
+    font-weight: bold;
+}
+
+header .navigation-menu .nav-item{
+    margin-right: 24px;
+
+}
+/* прибиваємо останній пункт меню до правого боку*/
+header .navigation-menu .nav-item:last-child{
+    margin-right: 0px;
+}
+
+/* main styles */
+
+/* btns */
+.btn-apply .btn-apply-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.container .left-decription .bth-second{
+    padding: 10px 118px;
+}
+.container .btn-apply-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#59ABB0; 
+    border-radius: 10px;
+    padding: 8px 38px;
+    color: #FFFFFF;
+
+}
+body .container .btn-apply-link:hover{
+    background-color: #60DFE8;
+    font-weight: 400;
+}
+
+.btn-subscribe{
+    width: 170px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:#59ABB0; 
+    border-radius: 10px;
+}
+.btn-subscribe .btn-subscribe-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.btn-subscribe:hover{
+    background-color: #60DFE8;
+}
+
+/* bloks */
+.top-block{
+    display: flex;
+    margin-bottom: 47px;
+    width: 100%;
+}
+.left-decription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 47%;
+}
+.right-img{
+    width: 53%;
+}
+
+.left-list{
+    padding-left: 25px;
+}
+
+.left-list li{
+    list-style-type:disc ;
+}
+
+.right-img img{
+    width: 100%;
+}
+h1{
+    margin-bottom: 30px;
+    font-family: 'Baloo';
+    font-size: 36px;
+    line-height: 57px;
+}
+.left-small-text{
+    margin-bottom: 30px;
+}
+h4{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.left-list{
+    margin-bottom: 30px;
+}
+
+
+.bottom-block{
+    display: flex;
+    margin-bottom: 95px;
+    width: 100%;
+}
+
+.right-decription{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    margin-left: 167px;
+    width: 53%;
+}
+.left-img{
+    width: 47%;
+    
+}
+.left-img img{
+    width: 100%;
+}
+h2{
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 24px;
+}
+h5{
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+
+
+/* styles footer */
+.elements-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Baloo 2';
+    color: #FFFFFF;
+}
+.elements-footer .left-el-footer{
+    flex-direction: column;
+    display: flex;
+}
+.elements-footer .right-el-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+footer {
+    background:#59ABB0;
+    padding-top: 39px;
+    padding-bottom: 39px;
+
+}
+footer .footer-list-link{
+    color: #FFFFFF;
+}
+.footer-list .footer-list-el{
+    margin-right: 20px;
+}
+.footer-list .footer-list-el:last-child{
+    margin-right: 0px;
+}
+footer .footer-list .footer-list-link{
+    text-decoration: none;
+}
+footer .footer-list .footer-list-link:hover{
+    text-decoration: underline;
+}
+
+footer .left-el-footer .copy-text{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.menu-icon{
+    display: none;
+    width: 36px;
+}
+
+.menu-icon img{
+    width: 100%;
+}
+
+
+
+
+/* Media Styles */
+@media screen and (min-device-width: 320px) and (max-device-width: 992px) { 
+
+    .btn-subscribe{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .btn-apply{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    header .navigation .navigation-menu{
+        display: none;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header{
+        padding-top: 20px;
+    }
+
+    .top-block{
+        flex-direction: column;
+    }
+    .top-block .left-decription{
+        width: 100%;  
+    }
+    .top-block .right-img{
+        width: 100%;
+    }
+
+    .bottom-block{
+        flex-direction: column;
+        margin-bottom: 48px;
+    }
+    .bottom-block .right-decription{
+        width: 100%;  
+        margin-left: 0px;
+        order: -1;
+    }
+    .bottom-block .left-img{
+        width: 100%;
+    }
+
+    footer .footer-list{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .footer-list .footer-list-el {
+        margin-right: 0px;
+        margin-bottom: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.main{
+    position: relative;
+}
+
+.header-logo{
+    width: 145px;
+    height: 27.44px;
+    left: 100px;
+    top: 78.84px;
+    position: absolute;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font: 'Baloo 2';
+    position: absolute;
+    width: 598px;
+    height: 40px;
+    right: 102px;
+    top: 72px;
+}
+
+.nav-item-5{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color:#59ABB0; 
+    border-radius: 10px;
+}
+
+.top-content{
+    position: absolute;
+    left: 100px;
+    right: 102px;
+    top: 166px;
+    font-family: 'Baloo 2';
+    width: 100%;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.right-photo{
+    width: 50%;
+    height: 716px;
+    padding-left: 170px;
+    
+}
+
+.right-photo-img{
+    width: auto;
+}
+
+.left-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+h2{
+    font-family: 'Baloo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 30px;
+
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 30px;
+
+}
+
+h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 30px;
+}
+
+ul{
+    padding-bottom: 30px;
+}
+
+.btn-apply{
+    width: 320px;
+    height: 48px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    color: #FFFFFF;
+    background-color:#59ABB0; 
+    border-radius: 10px;
+    
+}
+
+.bottom-content {
+    position: absolute;
+    left: 100px;
+    right: 102px;
+    top: 929px;
+    font-family: 'Baloo 2';
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.btn-subscribe{
+    width: 170px;
+    height: 45px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    color: #FFFFFF;
+    background-color:#59ABB0; 
+    border-radius: 10px;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    padding-bottom: 30px;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: #59ABB0;
+}
+*/
