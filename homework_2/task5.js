@@ -1,6 +1,6 @@
 //what would be the result of next statements:
 
-[1, 2, 3] + {} //
+[1, 2, 3] + {} // 1,2,3[object Object]
 
 1 + "3" - 2 // 11
 

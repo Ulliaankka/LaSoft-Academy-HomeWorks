@@ -1,22 +1,19 @@
 const checkIfStart = str => {
-
-    if (str.length < 2) {
+    if (str !== "string" && str.length < 2) {
         return false;
     }
     
-    let newString = str.substring(0, 2);
+    let newString = str.substring(0, 2).toLowerCase();
     
-    if (
-        typeof newString === "string" &&
-        newString === "if"
-        ) {
-        return true;
+    if (newString === "if") {
+        return true; 
     }
-
-    else return false;
+    
+    return false;
 }
-console.log(checkIfStart("if I could fly"))
-console.log(checkIfStart("iffy stuff"))
+console.log(checkIfStart("If I could fly"))
+console.log(checkIfStart("IFfy stuff"))
+console.log(checkIfStart("if fy stuff"))
 console.log(checkIfStart("hello world"));
 
 

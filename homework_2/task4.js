@@ -17,19 +17,15 @@ const hasSameDigit = digitSum => {
     let array = toArray(digitSum)
     if (array.length !== new Set(array).size) {
         return true;
-      }
-    
-    else return false;
+    }
+    return false;
 }
 
 const areHalvesEqual = digitSum => {
     let array = toArray(digitSum);
     let sum1 = Number(array[0])+Number(array[1]);
     let sum2 = Number(array[2])+Number(array[3]);
-    if (sum1 === sum2){
-        return true;
-    }
-    else return false;
+    return sum1 === sum2;
 }
 
 const checkNumberValues = digitSum => {
