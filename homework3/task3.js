@@ -1,6 +1,8 @@
 const splittedString = str => {
     
-    let arr = str.split(",")
+    let arr = str.split(' ')
+                 .join('')
+                 .split(',');
     let arrWithStr = [];
     let arrWithNumber=[];
     
