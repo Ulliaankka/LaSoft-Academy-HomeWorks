@@ -62,13 +62,13 @@ let person3 = new PersonFunc(Elizabeth);
 PersonFunc.prototype.getFullName = function() {
   try {
       if (this.object.firstName && this.object.lastName) {
-        console.log(`${this.object.firstName} ${this.object.lastName}`); 
+        return `${this.object.firstName} ${this.object.lastName}`; 
       }
-
+    
       else throw new Error('Invalid object fields');
   }
   catch (error) {
-      console.log('error: ', error);
+      return error.message;
   }
 }
 
@@ -81,13 +81,13 @@ PersonFunc.prototype.getAge = function(){
     
       if (this.object.birthDate) {
         const resAge = currYear - personYear;
-        console.log(`${resAge} years`);
+        return `${resAge} years`;
       }
 
       else throw new Error('Invalid object fields');
   }
   catch (error) {
-      console.log('error: ', error); 
+      return error.message; 
   }
 }
   
@@ -95,32 +95,32 @@ PersonFunc.prototype.getFullAddress = function() {
   try {
       const keys = Object.keys(this.object.address);
       if (keys.length === 5) {
-          console.log(`${this.object.address.country}, ${this.object.address.city}, ${this.object.address.street}, ${this.object.address.house}/${this.object.address.apartment}`);
+          return `${this.object.address.country}, ${this.object.address.city}, ${this.object.address.street}, ${this.object.address.house}/${this.object.address.apartment}`;
         }
           
       else if (keys.length === 4) { 
-          console.log(`${this.object.address.country}, ${this.object.address.city}, ${this.object.address.street}, ${this.object.address.house}`); 
+          return `${this.object.address.country}, ${this.object.address.city}, ${this.object.address.street}, ${this.object.address.house}`; 
         }
 
       else throw new Error('Invalid object fields');     
   }
 
   catch (error) {
-      console.log('error: ', error); 
+      return error.message; 
   }
 }        
 
 console.log("==============About person1==============")
-person1.getFullName();
-person1.getAge();
-person1.getFullAddress();
+console.log(person1.getFullName());
+console.log(person1.getAge());
+console.log(person1.getFullAddress());
 
 console.log("==============About person2==============")
-person2.getFullName();
-person2.getAge();
-person2.getFullAddress();
+console.log(person2.getFullName());
+console.log(person2.getAge());
+console.log(person2.getFullAddress());
 
 console.log("==============About person3==============")
-person3.getFullName();
-person3.getAge();
-person3.getFullAddress();
+console.log(person3.getFullName());
+console.log(person3.getAge());
+console.log(person3.getFullAddress());
