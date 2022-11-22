@@ -1,0 +1,24 @@
+header .navigation-menu{
+    display: flex;
+    align-items: center;
+}
+header .navigation-menu .nav-item-link{
+    text-decoration: none;
+    color: black;
+}
+header .navigation-menu .nav-item-link:hover{
+    font-weight: bold;
+}
+header .navigation-menu .nav-item{
+    margin-right: 24px;
+    list-style-type: none;
+}
+header .navigation-menu .nav-item:last-child{
+    margin-right: 0px;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 992px) {
+    header .navigation .navigation-menu{
+        display: none;
+    }
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Baloo';
+  src: url('/fonts/Baloo/Baloo-Regular.ttf')
+}
+@font-face {
+  font-family: 'Baloo 2';
+  src: url('/fonts/Baloo2/Baloo2-VariableFont_wght.ttf')
+
+}
+body {
+  font-family: 'Baloo 2';
+}
+

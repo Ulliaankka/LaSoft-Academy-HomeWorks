@@ -1,0 +1,8 @@
+.left-small-text{
+    margin-bottom: 30px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 992px) {
+    .top-block .left-small-text{
+        margin-bottom: 14px;
+    }
+}
