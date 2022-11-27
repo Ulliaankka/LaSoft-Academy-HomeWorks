@@ -1,4 +1,4 @@
-footer {
+footer{
     background:#59ABB0;
     padding-top: 39px;
     padding-bottom: 39px;
@@ -13,4 +13,11 @@ footer .container{
     justify-content: space-between;
     font-family: 'Baloo 2';
     color: #FFFFFF;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 992px){
+    footer .container {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
 }

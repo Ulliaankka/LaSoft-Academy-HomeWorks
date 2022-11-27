@@ -16,9 +16,17 @@ header .navigation-menu .nav-item{
 header .navigation-menu .nav-item:last-child{
     margin-right: 0px;
 }
+.btn-apply-first{
+    width: 150px;
+    height: 40px;
+}
 
-@media screen and (min-device-width: 320px) and (max-device-width: 992px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 992px){
     header .navigation .navigation-menu{
         display: none;
+    }
+    .btn-apply-first{
+        width: 100%;
+        margin-bottom: 24px;
     }
 }

@@ -19,7 +19,7 @@ footer .footer-list .footer-list-link:hover{
     text-decoration: underline;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 992px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 992px){
     footer .footer-list{
         flex-direction: column;
         align-items: flex-end;

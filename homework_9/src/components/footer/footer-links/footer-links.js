@@ -11,5 +11,5 @@ const FooterLinks = () => {
             </div>
     );
   };
-  
-  export default FooterLinks;
+
+export default FooterLinks;
