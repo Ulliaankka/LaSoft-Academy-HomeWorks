@@ -1,8 +1,8 @@
 import React from "react";
 import './header.css';
-import HeaderLogo from './header-logo/header-logo';
-import HeaderMobBurger from './header-mob-burger/header-mob-burger';
-import HeaderNavigation from './header-navigation/header-navigation';
+import HeaderLogo from './Header-logo/header-logo';
+import HeaderMobBurger from './Header-mob-burger/header-mob-burger';
+import HeaderNavigation from './Header-navigation/header-navigation';
 
 const Header = () => {
     return (

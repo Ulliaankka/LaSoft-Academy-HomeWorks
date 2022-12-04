@@ -1,6 +1,6 @@
 import React from "react";
-import FooterLinks from "./footer-links/footer-links";
-import FooterText from "./footer-text/footer-text";
+import FooterLinks from "./Footer-links/footer-links";
+import FooterText from "./Footer-text/footer-text";
 import './footer.css';
 
 const Footer = () => {

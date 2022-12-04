@@ -1,10 +1,10 @@
 import React from "react";
 import Button from "../../Components/Button/button";
-import './main.css';
+import './home-page.css';
 import oldLetter from './old-let.svg';
 import paris from './paris.svg';
 
-const Main = () => {
+const HomePage = () => {
     return (
         <main>
             <div className="container">
@@ -33,7 +33,7 @@ const Main = () => {
                     </div>
                     <div className="decription">
                         <h2>Interested but currently have other plans?</h2>
-                        <p>Subscribe to our newsletter to stay tuned and get hottest updates and deals</p>
+                        <p className="home-text-section">Subscribe to our newsletter to stay tuned and get hottest updates and deals</p>
                         <Button text = {'Subscribe'} castomClassName='btn-subscribe'/>
                     </div>      
                 </div>
@@ -42,4 +42,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default HomePage;
