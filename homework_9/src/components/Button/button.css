@@ -1,0 +1,13 @@
+.common-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#59ABB0; 
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+}
+.common-btn:hover{
+    background-color: #60DFE8;
+}

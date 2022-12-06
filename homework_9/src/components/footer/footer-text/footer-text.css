@@ -1,0 +1,7 @@
+.elements-footer .left-el-footer{
+    display: flex;
+    flex-direction: column;
+}
+footer .left-el-footer .copy-text{
+    margin-bottom: 10px;
+}

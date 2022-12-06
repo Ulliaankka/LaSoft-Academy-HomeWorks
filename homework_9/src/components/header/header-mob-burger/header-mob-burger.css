@@ -1,0 +1,12 @@
+.menu-icon{
+    display: none;
+    width: 36px;
+}
+.menu-icon img{
+    width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 992px){
+    .menu-icon{
+        display: block;
+    }
+}
