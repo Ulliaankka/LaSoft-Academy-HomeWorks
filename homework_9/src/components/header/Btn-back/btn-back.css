@@ -1,0 +1,13 @@
+.back-icon{
+    display: flex;
+    align-items: center;
+}
+.back-icon img{
+    width: 10px;
+    height: 10px;
+    margin-right: 16px;
+}
+.back-link{
+    text-decoration: none;
+    color: black;
+}

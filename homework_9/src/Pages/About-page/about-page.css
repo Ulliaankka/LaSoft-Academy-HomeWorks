@@ -1,7 +1,7 @@
-.about{
+.about-page-wrap{
     max-width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Poppins';
     margin-bottom: 40px;
 }
@@ -15,12 +15,6 @@
 .about-text-title{
     margin-bottom: 20px;
 }
-.about-text-section{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-}
 .address-information{
     margin-top: 29px;     
 }
@@ -33,6 +27,6 @@
 .icon-about{
     margin-right: 32px;
 }
-.icon-about:hover {
+.icon-about:hover{
     cursor: pointer;
 }

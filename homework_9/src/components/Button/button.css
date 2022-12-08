@@ -1,13 +1,43 @@
 .common-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#59ABB0; 
     font-weight: 600;
     border-radius: 10px;
     border: none;
-    color: #FFFFFF;
+    font-family: 'Baloo 2';
+    width: 152px;
+    height: 40px;
 }
 .common-btn:hover{
-    background-color: #60DFE8;
+    cursor: pointer;
+}
+.color-white{
+    border: 1px solid #1B6C71;
+    color: #1B6C71;
+    background-color: white;
+}
+.color-white:hover{
+    background: white;
+    box-shadow: 0px 0px 4px #14565A;
+    color: #14565A;
+    border: 1px solid #14565A;
+}
+.color-green{
+    background: #59ABB0;
+    color: white;
+}
+.color-green:hover{
+    background: #1B6C71;
+    box-shadow: 0px 0px 4px #59ABB0;
+    color: white;
+}
+.disabled{
+    background: #C2D2D2;
+}
+.disabled:hover{
+    background: #C2D2D2;
+    box-shadow: none;
+    cursor: auto;
+}
+.btn-apply-size{
+    width: 172px;
+    height: 52px;
 }

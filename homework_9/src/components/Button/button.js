@@ -1,9 +1,9 @@
 import React from "react";
 import './button.css'
 
-const Button = ({text, castomClassName}) => {
+const Button = ({text, castomClassName, onClick, disabled, color='color'}) => {
     return (
-        <button className={`common-btn ${castomClassName}`}>{text}</button>
+        <button onClick={onClick} disabled={disabled} className={`common-btn ${castomClassName} color-${color}`}>{text}</button>
     );
 };
 

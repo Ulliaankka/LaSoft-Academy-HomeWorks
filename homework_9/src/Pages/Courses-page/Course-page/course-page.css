@@ -1,0 +1,30 @@
+.single-course-page{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    margin-bottom: 190px;
+}
+.course-text-block{
+    margin-right: 254px;
+}
+.price-title{
+    color: #4F5D5D;
+}
+.light-left-text{
+    color: #4F5D5D;
+}
+.light-right-text{
+    color: #000000;
+}
+.course-describe-list{
+    list-style: inside;
+}
+.card-info-all{
+    margin: 20px 0;
+}
+.width-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
