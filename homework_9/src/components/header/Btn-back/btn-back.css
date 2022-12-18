@@ -1,13 +1,14 @@
-.back-icon{
-    display: flex;
-    align-items: center;
+.back-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
-.back-icon img{
-    width: 10px;
-    height: 10px;
-    margin-right: 16px;
+.back-icon img {
+  width: 10px;
+  height: 10px;
+  margin-right: 16px;
 }
-.back-link{
-    text-decoration: none;
-    color: black;
+.back-link {
+  text-decoration: none;
+  color: black;
 }

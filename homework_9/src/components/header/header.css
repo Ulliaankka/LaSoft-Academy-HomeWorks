@@ -1,15 +1,27 @@
-header{
-    padding-top: 72px;
-    margin-bottom: 40px;
+header {
+  padding-top: 72px;
+  margin-bottom: 40px;
 }
-header .navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header .navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
+header .logo {
+  max-width: 145px;
+}
+.menu-icon {
+  display: none;
+  width: 36px;
+}
+.menu-icon img {
+  width: 100%;
+}
 @media screen and (min-device-width: 320px) and (max-device-width: 992px) {
-    header{
-        padding-top: 20px;
-    }
+  header {
+    padding-top: 20px;
+  }
+  .menu-icon {
+    display: block;
+  }
 }

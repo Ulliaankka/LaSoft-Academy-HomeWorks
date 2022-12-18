@@ -1,32 +1,32 @@
-.about-page-wrap{
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Poppins';
-    margin-bottom: 40px;
+.about-page-wrap {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  margin-bottom: 40px;
 }
-.about-text{
-    max-width: 55%;
-    margin-right: 70px;
+.about-text {
+  max-width: 55%;
+  margin-right: 70px;
 }
-.about-contact{
-    margin-left: 70px;
+.about-contact {
+  margin-left: 70px;
 }
-.about-text-title{
-    margin-bottom: 20px;
+.about-text-title {
+  margin-bottom: 20px;
 }
-.address-information{
-    margin-top: 29px;     
+.address-information {
+  margin-top: 29px;
 }
-.phone-information{
-    margin-top: 16px;
+.phone-information {
+  margin-top: 16px;
 }
-.social-media-information{
-    margin-top: 32px;
+.social-media-information {
+  margin-top: 32px;
 }
-.icon-about{
-    margin-right: 32px;
+.icon-about {
+  margin-right: 32px;
 }
-.icon-about:hover{
-    cursor: pointer;
+.icon-about:hover {
+  cursor: pointer;
 }

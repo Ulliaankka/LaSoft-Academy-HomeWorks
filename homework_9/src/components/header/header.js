@@ -1,26 +1,27 @@
 import React from "react";
-import './header.css';
-import HeaderLogo from './Header-logo/header-logo';
-import HeaderMobBurger from './Header-mob-burger/header-mob-burger';
-import HeaderNavigation from './Header-navigation/header-navigation';
-import { useLocation } from 'react-router-dom';
-import BattonBack from "./Btn-back/btn-back";
+import "../../Assets/General-styles/general-styles.css";
+import "./header.css";
+import logo from "../../Assets/Images/logo.svg";
+import mobMenubar from "../../Assets/Images/mob-menu.png";
+import HeaderNavigation from "./Header-navigation/header-navigation";
+import HeaderLogo from "./Header-logo/header-logo";
 
 const Header = () => {
-    
-    const location = useLocation();
-    return (
-        <header>
-            <div className="container">
-                <div className="navigation">
-                    <HeaderLogo isShow = {true}/>
-                    <HeaderMobBurger isShow = {location.pathname != '/apply'}/>
-                    <HeaderNavigation isShow = {location.pathname != '/apply'}/>
-                    <BattonBack isShow = {location.pathname === '/apply'} />
-                </div>
+  return (
+    <header>
+      <div className="container">
+        <div className="main-part">
+          <div className="navigation">
+            <HeaderLogo />
+            <HeaderNavigation />
+            <div className="menu-icon">
+              <img src={mobMenubar} alt="logo" />
             </div>
-        </header>
-    );
-  };
-  
-  export default Header;
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
