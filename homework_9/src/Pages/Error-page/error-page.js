@@ -1,6 +1,12 @@
+import React from "react";
+import Header from "../../Components/Header/header";
+
 const ErrorPage = () => {
     return (
-       <div>Page not found</div>
+        <>
+            <Header />
+            <h1>Page not found</h1>
+        </>
     );
 };
 

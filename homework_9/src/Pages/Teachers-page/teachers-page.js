@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import { fetchTeachers } from "../../Redux/Actions/teacher-actions";
-import Teacher from "./teacher";
+import Teacher from "./Teacher-block/teacher";
 import "./teachers-page.css";
 import "../../Assets/General-styles/general-styles.css";
 import Header from "../../Components/Header/header";

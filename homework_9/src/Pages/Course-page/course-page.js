@@ -4,9 +4,9 @@ import { useParams } from "react-router";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
-import { setSelectedCourses } from "../../../Redux/Actions/courses-action";
-import Button from "../../../Components/Button/button";
-import Header from "../../../Components/Header/header";
+import { setSelectedCourses } from "../../Redux/Actions/courses-action";
+import Button from "../../Components/Button/button";
+import Header from "../../Components/Header/header";
 
 const CoursePage = () => {
   const { courseId } = useParams();

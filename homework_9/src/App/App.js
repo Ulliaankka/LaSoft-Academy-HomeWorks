@@ -8,9 +8,9 @@ import Footer from "../Components/Footer/footer";
 import HomePage from "../Pages/Home-page/home-page";
 import AboutPage from "../Pages/About-page/about-page";
 import TeachersPage from "../Pages/Teachers-page/teachers-page";
-import CoursesPage from "../Pages/Courses-page/courses-page";
+import CoursesPage from "../Pages/Courses-list-page/courses-page";
 import ApplyPage from "../Pages/Apply-page/apply-page";
-import CoursePage from "../Pages/Courses-page/Course-page/course-page";
+import CoursePage from "../Pages/Course-page/course-page";
 import ErrorPage from "../Pages/Error-page/error-page";
 
 const App = () => {
