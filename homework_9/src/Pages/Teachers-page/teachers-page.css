@@ -1,0 +1,40 @@
+.teacher-block {
+  font-family: "Poppins";
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 316px;
+  padding: 12px;
+  box-shadow: 0px 0px 4px 0px #93a3a3;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.teachers-page-wrap .teachers-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.teacher-block-name {
+  margin-top: 11px;
+  margin-bottom: 7px;
+}
+.teacher-block-photo {
+  width: 152px;
+  height: 152px;
+  border-radius: 100px;
+  margin-top: 4px;
+}
+.teacher-info-block {
+  display: flex;
+  margin-top: 5px;
+  align-items: center;
+}
+.teacher-info-block-title {
+  width: 100px;
+  color: #4f5d5d;
+  padding-right: 16px;
+}
+.teacher-info-block-text {
+  width: 200px;
+}

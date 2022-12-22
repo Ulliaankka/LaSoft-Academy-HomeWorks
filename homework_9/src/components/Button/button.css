@@ -1,0 +1,43 @@
+.common-btn {
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  font-family: "Baloo 2";
+  width: 152px;
+  height: 40px;
+}
+.common-btn:hover {
+  cursor: pointer;
+}
+.color-white {
+  border: 1px solid #1b6c71;
+  color: #1b6c71;
+  background-color: white;
+}
+.color-white:hover {
+  background: white;
+  box-shadow: 0px 0px 4px #14565a;
+  color: #14565a;
+  border: 1px solid #14565a;
+}
+.color-green {
+  background: #59abb0;
+  color: white;
+}
+.color-green:hover {
+  background: #1b6c71;
+  box-shadow: 0px 0px 4px #59abb0;
+  color: white;
+}
+.disabled {
+  background: #c2d2d2;
+}
+.disabled:hover {
+  background: #c2d2d2;
+  box-shadow: none;
+  cursor: auto;
+}
+.btn-apply-size {
+  width: 172px;
+  height: 52px;
+}

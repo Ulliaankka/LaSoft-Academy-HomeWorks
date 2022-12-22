@@ -1,0 +1,114 @@
+.custom-select {
+  position: relative;
+}
+.custom-select[open] {
+  z-index: 1;
+}
+.custom-select[open] .radios:before {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.radios {
+  padding: 1rem;
+  cursor: pointer;
+  list-style: none;
+  width: 304px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #c2d2d2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.radios:after {
+  content: url("../../Assets/Images/Vector.png");
+  display: inline-block;
+  float: right;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.radios:focus {
+  outline: none;
+}
+.radios::-webkit-details-marker {
+  display: none;
+}
+.radios:hover {
+  border-color: #1b6c71;
+}
+.container-list {
+  width: 100%;
+  position: absolute;
+  top: 90%;
+  left: 0;
+  border-radius: 10px;
+  border: 1px solid #c2d2d2;
+  background: white;
+  margin: 0;
+  padding: 10px 0;
+  padding-right: 2px;
+}
+.drop-list {
+  box-sizing: border-box;
+  max-height: 160px;
+  overflow-y: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.drop-item {
+  margin: 0;
+}
+.drop-item:last-child {
+  border-bottom: none;
+}
+.drop-item:hover {
+  background-color: #f6f6f0;
+}
+.radios {
+  counter-reset: radios;
+}
+input[type="radio"] {
+  counter-increment: radios;
+  appearance: none;
+  display: none;
+}
+input[type="radio"]:checked {
+  display: inline;
+}
+input[type="radio"]:after {
+  content: attr(title);
+  display: inline;
+  font-family: "PoppinsRegular";
+  font-size: 14px;
+  font-weight: 400;
+}
+.drop-list {
+  counter-reset: labels;
+}
+.drop-item-text {
+  display: block;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+.disabled-selector {
+  width: 304px;
+  height: 40px;
+  padding: 0 16px 0 16px;
+  border: 1px solid #c2d2d2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  appearance: none;
+  overflow: hidden;
+  background: url("../../Assets/Images/Vector.png") no-repeat right;
+  background-position-x: 98%;
+}
+.disabled-selector:hover {
+  border-color: #c2d2d2;
+}

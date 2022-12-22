@@ -1,0 +1,15 @@
+.img-checkmark {
+  width: 200px;
+  height: 200px;
+}
+.block-center {
+  margin: 50px 0 85px 0;
+}
+.make-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.confirm-text {
+  margin-bottom: 32px;
+}
